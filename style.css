@@ -19,7 +19,7 @@ body {
   width: 375px;
   margin: 0;
   padding: 10px;
-  background-color: lightsteelblue;
+  background-color: #a0ada6;
   height: 812px;
   position: relative;
 }
@@ -74,11 +74,11 @@ h1 {
 }
 
 .correct {
-  background: salmon;
+  background: #dec0cb;
 }
 
 .unCorrect {
-  background: lightblue;
+  background: #cfd8e0;
 }
 
 #unCorrect {
