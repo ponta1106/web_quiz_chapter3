@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Web技術の基本クイズ</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Web技術の基本クイズ</h1>
+    <div class="container">
+      <div id="quizArea">
+        <p id="questionCount"></p>
+        <p id="questionArea"></p>
+        <div class="inputArea">
+          <span id="errorMessage" class="hide">解答を入力してください。</span>
+          <input type="text" placeholder="回答を入力してください" id="playersAnswer">
+          <input type="submit" value="回答する" id="answerButton">
+        </div>
+      </div>
+      <div id="judgeArea">
+        <div id="correct" class="hide">
+          <p>⚪︎正解</p>
+          <button class="nextQuizButton">次の問題へ</button>
+        </div>
+        <div id="unCorrect" class="hide">
+          <p>×不正解</p>
+          <button id="showAnswerButton">答えを見る</button>
+          <div id="showAnswerArea" class="hide">
+            <p id="answerArea"><span>答え</span></p>
+            <button class="nextQuizButton">次の問題へ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maritozzo"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

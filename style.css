@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  /* outline: 2px solid blue; */
+}
+
+body {
+  max-width: 375px;
+  margin: 0;
+  color: #333;
+  background-color: #eee;
+}
+
+.wrapper {
+  width: 365px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: lightsteelblue;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 24px;
+  background-color: #fff;
+}
+
+#questionArea {
+  font-size: 20px;
+}
+
+#errorMessage {
+  color: indianred;
+}
+
+#playersAnswer {
+  padding: 20px;
+  outline: none;
+  border: none;
+  color: #333;
+}
+
+#answerButton {
+  padding: 17px;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+#correct {
+  text-align: center;
+  border-radius: 3px;
+  background: salmon;
+}
+
+#unCorrect {
+  text-align: center;
+  border-radius: 3px;
+  background: skyblue;
+}
+
+.nextQuizButton {
+  padding: 7px;
+  outline: none;
+  border: none;
+  color: #333;
+  margin-right: 0;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 3px;
+  display: inline-block;
+}
+
+#showAnswerButton {
+  padding: 7px;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 3px;
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
+#maritozzo {
+  right: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 100px;
+  transition: .5s;
+  position: absolute;
+  background-size: cover;
+  background-image: url('maritozzo.png');
+}
