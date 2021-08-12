@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
+  font-size: 17px;
 }
 
-input , textarea , select {
-  /* 入力欄にフォーカスが当たっても拡大しない */
-  font-size: 17px;
+input , textarea , select, button{
+  background-color: #eee;
   }
 
 body {
@@ -54,7 +54,7 @@ h1 {
 }
 
 #answerButton {
-  padding: 17px;
+  padding: 10px;
   border: none;
   color: #333;
   cursor: pointer;
