@@ -5,6 +5,7 @@
 
 input , textarea , select, button{
   background-color: #eee;
+  -webkit-appearance: none;
   }
 
 body {
