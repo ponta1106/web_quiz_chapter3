@@ -21,8 +21,8 @@ const quizSet = [
   },
   //3
   {
-    question: 'WebはCERN(欧州原子核研究機構)の〇〇によって開発された。(カタカナのみで入力してください)',
-    answer: 'ティムバーナーズリー'
+    question: 'インターネットを開発したアメリカ国防総省の高等研究計画局はなに？（アルファベット大文字４文字）',
+    answer: 'ARPA'
   },
 ];
 const quizAmount = quizSet.length;
