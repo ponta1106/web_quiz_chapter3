@@ -19,10 +19,17 @@ const quizSet = [
     question: 'WebはCERN(欧州原子核研究機構)の〇〇によって開発された。(カタカナのみで入力してください)',
     answer: 'ティムバーナーズリー'
   },
+  //3
+  {
+    question: 'WebはCERN(欧州原子核研究機構)の〇〇によって開発された。(カタカナのみで入力してください)',
+    answer: 'ティムバーナーズリー'
+  },
 ];
-
+const quizAmount = quizSet.length;
 let index = quizSet.length -1; 
+let count = 1;
 
+const questionCount = document.getElementById('questionCount');
 const answerArea = document.getElementById('answerArea');
 const questionArea = document.getElementById('questionArea');
 const playersAnswer = document.getElementById('playersAnswer');
@@ -38,6 +45,7 @@ const maritozzo = document.getElementById('maritozzo');
 function setQuiz() {
   questionArea.textContent = quizSet[index].question;
   answerArea.textContent = quizSet[index].answer;
+  questionCount.textContent = `${count}問目 / 全${quizAmount}問`;
   playersAnswer.value = ''
   errorMessage.classList.add('hide');
   correct.classList.add('hide');
@@ -70,6 +78,7 @@ nextQuizButton.forEach(function(btn) {
       btn.textContent = 'お疲れ様です！全問終了です！';
     }else if(index > 0 ) {
       index -= 1;
+      count += 1;
       setQuiz();
     }
   })

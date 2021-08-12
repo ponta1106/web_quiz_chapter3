@@ -16,17 +16,21 @@
         <p id="questionArea"></p>
         <div class="inputArea">
           <span id="errorMessage" class="hide">解答を入力してください。</span>
-          <input type="text" placeholder="回答を入力してください" id="playersAnswer">
-          <input type="submit" value="回答する" id="answerButton">
+          <div>
+            <input type="text" placeholder="回答を入力してください" id="playersAnswer">
+          </div>
+          <div>
+            <input type="submit" value="回答する" id="answerButton">
+          </div>
         </div>
       </div>
       <div id="judgeArea">
         <div id="correct" class="hide">
-          <p>⚪︎正解</p>
+          <p class="result correct">⚪︎正解</p>
           <button class="nextQuizButton">次の問題へ</button>
         </div>
         <div id="unCorrect" class="hide">
-          <p>×不正解</p>
+          <p class="result unCorrect">×不正解</p>
           <button id="showAnswerButton">答えを見る</button>
           <div id="showAnswerArea" class="hide">
             <p id="answerArea"><span>答え</span></p>
