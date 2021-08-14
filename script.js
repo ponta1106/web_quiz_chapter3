@@ -63,6 +63,22 @@ const quizSet = [
     question: 'Webサーバーのポート番号は〇〇番である',
     answer: '80'
   },
+  {
+    question: 'IPアドレスの別名として利用される、「example.com」の様なホスト名をなんという？',
+    answer: 'ドメイン'
+  },
+  {
+    question: '数字で表記されるIPアドレスは私たちにとって覚えにくく扱いにくいため、〇〇がIPアドレスの別名として利用される。',
+    answer: 'ドメイン'
+  },
+  {
+    question: 'ドメインをIPアドレスに変換する仕組みをなんという？',
+    answer: 'DSN'
+  },
+  {
+    question: '2016年第一四半期の時点でドメイン登録者は何件？',
+    answer: '3億2,000万件'
+  },
 ];
 
 const quizAmount = quizSet.length;
