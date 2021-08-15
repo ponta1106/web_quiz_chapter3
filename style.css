@@ -28,7 +28,7 @@ a {
   width: 375px;
   margin: 0;
   padding: 10px;
-  background-color: #a0ada6;
+  background-color: #d6ced0;
   height: 812px;
   position: relative;
 }
@@ -97,7 +97,6 @@ h1 {
 
 .nextQuizButton {
   padding: 10px;
-  outline: none;
   border: none;
   color: #333;
   margin-right: 0;
