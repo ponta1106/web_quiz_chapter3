@@ -24,10 +24,6 @@ const quizSet = [
     answer: 'ステータスコード',
   },
   {
-    question: 'HTTPレスポンスのなかで、HTTPリクエストに対するWebサーバー内での処理結果が含まれている、3桁の数字をなんという？',
-    answer: 'ステータスコード',
-  },
-  {
     question: 'HTTPメソッドのなかで、WebブラウザとWebサーバーの経路をチェックする場合に利用するメソッドは？(英語大文字)',
     answer: 'TRACE',
   },
