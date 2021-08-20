@@ -163,10 +163,6 @@ const quizSet = [
     question: 'HTTPリクエストの場合、URIはリクエスト行のメソッドに続いて記述され、「〇〇」とも呼ばれる。',
     answer: 'リクエストURI',
   },
-  {
-    question: 'HTTPリクエストの場合、URIはリクエスト行のメソッドに続いて記述され、「〇〇」とも呼ばれる。',
-    answer: 'リクエストURI',
-  },
 ];
 
 const quizAmount = quizSet.length;
